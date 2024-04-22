@@ -9,5 +9,4 @@ firebase.initializeApp({
   messagingSenderId: "875347825210",
   appId: "1:875347825210:web:d24dd3bc218a99369e5b03"
 });
-const messaging = firebase.messaging.isSupported();
-console.log("Firebase initialized successfully!");
+const messaging = firebase.messaging();
